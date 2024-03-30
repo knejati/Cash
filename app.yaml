@@ -1,8 +1,0 @@
----
-- name: Copy index.html as root
-  become: yes
-  tasks:
-    - name: Copy index.html
-      copy:
-        src: /index.html
-        dest: /var/www/html
